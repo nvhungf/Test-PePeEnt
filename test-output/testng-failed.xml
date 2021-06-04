@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="java4.TestCreateUser">
+        <methods>
+          <include name="TestCreate_10"/>
+          <include name="TestCreate_09"/>
+          <include name="TestCreate_08"/>
+          <include name="TestCreate_07"/>
+          <include name="afterClass"/>
+          <include name="suiteSetUp"/>
+        </methods>
+      </class> <!-- java4.TestCreateUser -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
